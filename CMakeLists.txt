@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.16)
 # Sets required toolchain for STM32 targets. Must be provided before project name.
 set(CMAKE_TOOLCHAIN_FILE cmake/toolchain-arm-none-eabi-gcc.cmake)
 set(FREERTOS_PORT GCC_ARM_CM4F CACHE STRING "")
-set(GDB gdb-mutiarch)
+set(GDB gdb-multiarch)
 
 option(BUILD_DEBUG "Build with debug info" ON)
 # Set the build type based on the option
