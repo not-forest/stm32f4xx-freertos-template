@@ -1,6 +1,6 @@
 ## Main build file for Demo Project.
 ##
-## STM32 Chip is handled my libopencm3 libraries. Both libraries and FreeRTOS are fetched during build.
+## STM32 Chip is handled my STM32 HAL libraries. Both libraries and FreeRTOS are fetched during build.
 
 cmake_minimum_required(VERSION 3.16)
 
